@@ -5,7 +5,7 @@ def validate_login():
     username = username_entry.get()
     password = password_entry.get()
 
-    # Replace with your own username and password validation logic
+    # inserting the username and password
     if username == ".\ admin" and password == "Nkosi2001!":
         messagebox.showinfo("Login Successful", "Welcome, admin!/ Siyakwamukela mfethu.")
     else:
